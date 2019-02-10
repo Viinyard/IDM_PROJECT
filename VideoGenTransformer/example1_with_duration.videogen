@@ -1,0 +1,47 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	mandatory videoseq v1 "video/0013_HD_light_540p.mov" { duration 7.4d }
+	optional videoseq v2 "video/0034_pigeonabove_540p.mov" { duration 17.0d }
+	mandatory videoseq v3 "video/0012_HD_toilet.mov" { duration 10.0d }
+	alternatives v4 {
+		videoseq v41 "video/0050_fireworksparklefront_540p.mov" { duration 16.72d }
+		videoseq v42 "video/0075_smokeright_540p.mov" { duration 29.0d }
+		videoseq v43 "video/0088_eatingredpanda_540p.mov"
+	{ duration 23.16d } }
+	mandatory videoseq v5 "video/0134_Newtonscradle_540p.mov" { duration 14.96d }
+	alternatives v6 {
+		videoseq v61 "video/0120_goldfishonwhite_540p.mov" { duration 32.36d }
+		videoseq v62 "video/0136_wineglassofsand_540p.mov" { duration 22.52d }
+		videoseq v63 "video/0139_wineglasswithfish_540p.mov"
+	{ duration 15.08d } }
+	optional videoseq v7 "video/0142_syringewithblood_540p.mov" { duration 21.04d }
+	optional videoseq v8 "video/0155_dogwithglasses_540p.mov" { duration 29.48d }
+	alternatives v9 {
+		videoseq v91 "video/0162_greeninkinwater_540p.mov" { duration 34.0d }
+		videoseq v92 "video/0206_treeflowersunset_540p.mov" { duration 19.76d }
+		videoseq v93 "video/0217_flashingredlights_540p.mov" { duration 11.64d }
+		videoseq v94 "video/0263_bluegellcover_540p.mov" { duration 29.32d }
+		videoseq v95 "video/0264_inkspots_540p.mov"
+	{ duration 25.96d } }
+	optional videoseq v10 "video/0236_tvdistortionclose_540p.mov" { duration 14.76d }
+	alternatives v11 {
+		videoseq v111 "video/0268_eyecolorlight_540p.mov" { duration 14.0d }
+		videoseq v112 "video/0283_slugblackside_720p.mov" { duration 20.08d }
+		videoseq v113 "video/0290_alienplanet_720p.mov" { duration 30.0d }
+		videoseq v115 "video/0295_earthonwhitefast_720p.mov" { duration 30.0d }
+		videoseq v116 "video/0304_wiregelred_720p.mov" { duration 15.0d }
+		videoseq v117 "video/0309_waterdrops_720p.mov" { duration 20.0d }
+		videoseq v118 "video/0330_cristallights_720p.mov"
+	{ duration 25.0d } }
+	
+	alternatives v12 {
+		videoseq v121 "video/0337_pointyballs_720p.mov" { duration 18.0d }
+		videoseq v122 "video/0344_yellowtexture_720p.mov" { duration 22.0d }
+		videoseq v123 "video/0388_cornfieldsunset_540.mov" { duration 13.88d }
+		videoseq v124 "video/0419_smallwaterfalls_540.mov" { duration 14.4d }
+		videoseq v125 "video/0447_ontheriver_540.mov" { duration 15.04d }
+		videoseq v126 "video/0477_aerial_540.mov"
+	{ duration 14.24d } }
+}
