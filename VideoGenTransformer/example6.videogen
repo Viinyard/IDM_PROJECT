@@ -1,0 +1,21 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	alternatives v4 {
+		videoseq v43 "video/0088_eatingredpanda_540p.mov"
+	}
+	alternatives v6 {
+		videoseq v63 "video/0139_wineglasswithfish_540p.mov"
+	}
+	alternatives v9 {
+		videoseq v95 "video/0264_inkspots_540p.mov"
+	}
+	alternatives v11 {
+		videoseq v118 "video/0330_cristallights_720p.mov"
+	}
+	
+	alternatives v12 {
+		videoseq v126 "video/0477_aerial_540.mov"
+	}
+}

@@ -1,0 +1,6 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	optional videoseq v2 "video/0034_pigeonabove_540p.mov"
+}

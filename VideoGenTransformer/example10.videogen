@@ -1,0 +1,8 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	mandatory videoseq v1 "video/0013_HD_light_540p.mov"
+	mandatory videoseq v3 "video/0012_HD_toilet.mov"
+	mandatory videoseq v5 "video/0134_Newtonscradle_540p.mov"
+}

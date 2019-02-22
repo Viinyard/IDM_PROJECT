@@ -1,0 +1,9 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	optional videoseq v2 "video/0034_pigeonabove_540p.mov"
+	optional videoseq v7 "video/0142_syringewithblood_540p.mov"
+	optional videoseq v8 "video/0155_dogwithglasses_540p.mov"
+	optional videoseq v10 "video/0236_tvdistortionclose_540p.mov"
+}

@@ -38,8 +38,11 @@ public class GenerateCSVData {
 				Node root = n;
 				long size = 0;
 				while(root.getParent() != null) {
-					v[hmIndex.get(root.getId())] = true;
-					size += hmSize.get(root.getMediaDescription());
+					if(hmIndex.get(root.getId()) != null) {
+						v[hmIndex.get(root.getId())] = true;
+						size += hmSize.get(root.getMediaDescription());
+					}
+					
 					root = root.getParent();
 				}
 				csv.append(index + ";");
@@ -60,7 +63,7 @@ public class GenerateCSVData {
 	
 	public static void main(String[] args) {
 		VideoGenHelper helper = new VideoGenHelper();
-		VideoGeneratorModel videoGen = helper.loadVideoGenerator(URI.createURI("example1.videogen"));
+		VideoGeneratorModel videoGen = helper.loadVideoGenerator(URI.createURI("example3.videogen"));
 		new GenerateCSVData().generate(videoGen, new File("stats.csv"));
 	}
 

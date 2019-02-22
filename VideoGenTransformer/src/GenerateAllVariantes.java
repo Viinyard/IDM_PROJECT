@@ -101,11 +101,12 @@ public class GenerateAllVariantes {
 	
 	public static void main(String[] args) {
 		VideoGenHelper helper = new VideoGenHelper();
-		VideoGeneratorModel videoGen = helper.loadVideoGenerator(URI.createURI("example1.videogen"));
+		VideoGeneratorModel videoGen = helper.loadVideoGenerator(URI.createURI("example2.videogen"));
 		
 		//helper.saveVideoGenerator(URI.createURI("example2.videogen"), videoGen);
 		
 		List<Node> lVariantes = new GenerateAllVariantes().generate(videoGen);
+		System.out.println(lVariantes.size());
 		
 	}
 

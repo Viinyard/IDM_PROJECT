@@ -1,0 +1,40 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	alternatives v4 {
+		videoseq v41 "video/0050_fireworksparklefront_540p.mov"
+		videoseq v42 "video/0075_smokeright_540p.mov"
+		videoseq v43 "video/0088_eatingredpanda_540p.mov"
+	}
+	alternatives v6 {
+		videoseq v61 "video/0120_goldfishonwhite_540p.mov"
+		videoseq v62 "video/0136_wineglassofsand_540p.mov"
+		videoseq v63 "video/0139_wineglasswithfish_540p.mov"
+	}
+	alternatives v9 {
+		videoseq v91 "video/0162_greeninkinwater_540p.mov"
+		videoseq v92 "video/0206_treeflowersunset_540p.mov"
+		videoseq v93 "video/0217_flashingredlights_540p.mov"
+		videoseq v94 "video/0263_bluegellcover_540p.mov"
+		videoseq v95 "video/0264_inkspots_540p.mov"
+	}
+	alternatives v11 {
+		videoseq v111 "video/0268_eyecolorlight_540p.mov"
+		videoseq v112 "video/0283_slugblackside_720p.mov"
+		videoseq v113 "video/0290_alienplanet_720p.mov"
+		videoseq v115 "video/0295_earthonwhitefast_720p.mov"
+		videoseq v116 "video/0304_wiregelred_720p.mov"
+		videoseq v117 "video/0309_waterdrops_720p.mov"
+		videoseq v118 "video/0330_cristallights_720p.mov"
+	}
+	
+	alternatives v12 {
+		videoseq v121 "video/0337_pointyballs_720p.mov"
+		videoseq v122 "video/0344_yellowtexture_720p.mov"
+		videoseq v123 "video/0388_cornfieldsunset_540.mov"
+		videoseq v124 "video/0419_smallwaterfalls_540.mov"
+		videoseq v125 "video/0447_ontheriver_540.mov"
+		videoseq v126 "video/0477_aerial_540.mov"
+	}
+}

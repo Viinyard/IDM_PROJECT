@@ -1,0 +1,31 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	optional videoseq v2 "video/0034_pigeonabove_540p.mov"
+	alternatives v4 {
+		videoseq v41 "video/0050_fireworksparklefront_540p.mov"
+		videoseq v43 "video/0088_eatingredpanda_540p.mov"
+	}
+	mandatory videoseq v5 "video/0134_Newtonscradle_540p.mov"
+	alternatives v6 {
+		videoseq v61 "video/0120_goldfishonwhite_540p.mov"
+		videoseq v63 "video/0139_wineglasswithfish_540p.mov"
+	}
+	optional videoseq v7 "video/0142_syringewithblood_540p.mov"
+	
+	alternatives v9 {
+		videoseq v91 "video/0162_greeninkinwater_540p.mov"
+		videoseq v92 "video/0206_treeflowersunset_540p.mov"
+	}
+	optional videoseq v10 "video/0236_tvdistortionclose_540p.mov"
+	alternatives v11 {
+		videoseq v111 "video/0268_eyecolorlight_540p.mov"
+		videoseq v112 "video/0283_slugblackside_720p.mov"
+	}
+	optional videoseq v8 "video/0155_dogwithglasses_540p.mov"
+	alternatives v12 {
+		videoseq v121 "video/0337_pointyballs_720p.mov"
+		videoseq v122 "video/0344_yellowtexture_720p.mov"
+	}
+}

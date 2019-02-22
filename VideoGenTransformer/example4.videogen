@@ -1,0 +1,10 @@
+@author "vinyard"
+@version "v1"
+@creation "30/01/2019"
+VideoGen {
+	alternatives v4 {
+		videoseq v41 "video/0050_fireworksparklefront_540p.mov"
+		videoseq v42 "video/0075_smokeright_540p.mov"
+		videoseq v43 "video/0088_eatingredpanda_540p.mov"
+	}
+}
